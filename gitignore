@@ -1,0 +1,122 @@
+# Операционные системы
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Директории для зависимостей
+node_modules/
+bower_components/
+.pnp/
+.pnp.js
+
+# Исключения зависимостей для билдов
+lib-cov/
+coverage/
+dist/
+build/
+.cache/
+.next/
+out/
+# Временные файлы
+tmp/
+temp/
+
+# Пакеты Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.Python
+env/
+venv/
+ENV/
+env.bak/
+*.egg-info/
+.eggs/
+
+# Исполняемые файлы и IDE
+*.exe
+*.dll
+*.so
+*.dylib
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.vim/
+*.orig
+*.bak
+
+# Конфигурационные и приватные данные
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Файлы тестирования и CI/CD
+*.log
+*.xml
+*.coverage
+.coverage.*
+.nyc_output/
+reports/
+
+# Файлы систем контроля версий и временные файлы
+*.lock
+*.bak
+*.seed
+*.backup
+*~
+# MacOS
+Icon?
+.Trashes
+
+# Конкретные для проектов
+package-lock.json
+yarn.lock
+composer.lock
+npm-shrinkwrap.json
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# IDEs and Editors
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Кэш
+*.obj
+*.lib
+*.dll
+*.exp
+*.pdb
+
+# Образы и дампы баз данных
+*.dump
+*.sql
+
+# Конфигурации сервера
+*.pid
+
+# Logs and databases
+*.db
+*.sqlite
+
+# Custom Extensions
+*.log.*
+
+# IntelliJ IDEA и производные (PyCharm, WebStorm и т.д.)
+.idea/
+*.iml
+*.iws
